@@ -23,7 +23,7 @@ public class CSVServiceImpl {
 
 
     public void setCSVData() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\maxwe\\Downloads\\na-project\\na-project\\src\\main\\resources\\ac56fe111.csv"));
+        BufferedReader br = new BufferedReader(new FileReader("home/ec2-user/ac56fe111.csv"));
 
         while((line = br.readLine())!= null){
             String[]data = line.split(",");
